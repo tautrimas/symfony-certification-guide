@@ -1,4 +1,4 @@
-Symfony certification guide
+Symfony 3 certification guide
 ===========================
 
 This is not an official guide, it's only a compilation of links extracted from the documentation based on the [Symfony Certification](http://sensiolabs.com/en/symfony/certification.html) page topics.
@@ -44,11 +44,11 @@ http://symfony.com/doc/3.0/components/http_foundation/introduction.html#response
 
 * RFC 2616
 http://www.ietf.org/rfc/rfc2616.txt
-HTTP methods
-Cookies
-Caching
-Content negotiation
-Language detection
+* HTTP methods
+* Cookies
+* Caching
+* Content negotiation
+* Language detection
 
 ---
 
@@ -72,12 +72,12 @@ http://symfony.com/doc/2.3/cookbook/bundles/extension.html
 http://symfony.com/doc/2.3/quick_tour/the_architecture.html#understanding-the-directory-structure
 * Request handling  
 http://symfony.com/doc/2.3/book/http_fundamentals.html#the-journey-from-the-request-to-the-response
-Exception handling
-Event dispatcher and kernel events
-Official best practices
-Release management
-Backward compatibility promise
-Deprecations best practices
+* Exception handling
+* Event dispatcher and kernel events
+* Official best practices
+* Release management
+* Backward compatibility promise
+* Deprecations best practices
 
 ---
 
@@ -95,7 +95,8 @@ https://knpuniversity.com/screencast/composer
 http://symfony.com/doc/2.3/best_practices/index.html
 * Override the framework  
 http://symfony.com/doc/2.3/cookbook/bundles/override.html
-*Semantic versioning
+* Semantic versioning
+http://semver.org/
 
 ---
 
