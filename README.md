@@ -21,25 +21,39 @@ http://www.php.net/manual/en/language.oop5.interfaces.php
 http://www.php.net/manual/en/functions.anonymous.php
 * Abstract classes  
 http://www.php.net/manual/en/language.oop5.abstract.php
+* Exception and error handling
+* Traits
+http://php.net/manual/en/language.oop5.traits.php
+* PHP extensions
+* SPL
+http://php.net/manual/en/book.spl.php
+* Web security (XSS, CSRF, etc.)
+http://php.net/manual/en/security.php
 
 ---
 
 #### **HTTP**
 * Client / Server interaction  
-http://symfony.com/doc/2.3/book/http_fundamentals.html
-* HTTP request  
-http://symfony.com/doc/2.3/components/http_foundation/introduction.html#request
-* HTTP response  
-http://symfony.com/doc/2.3/components/http_foundation/introduction.html#response
+http://symfony.com/doc/3.0/book/http_fundamentals.html
 * Status codes  
 http://en.wikipedia.org/wiki/List_of_HTTP_status_codes
+* HTTP request  
+http://symfony.com/doc/3.0/components/http_foundation/introduction.html#request
+* HTTP response  
+http://symfony.com/doc/3.0/components/http_foundation/introduction.html#response
+
 * RFC 2616
 http://www.ietf.org/rfc/rfc2616.txt
+HTTP methods
+Cookies
+Caching
+Content negotiation
+Language detection
 
 ---
 
-#### **Symfony2 Architecture**
-* Standard edition of Symfony2  
+#### **Symfony Architecture**
+* Standard edition of Symfony
 http://symfony.com/distributions
 * Components  
 http://symfony.com/doc/2.3/components/index.html
@@ -58,6 +72,12 @@ http://symfony.com/doc/2.3/cookbook/bundles/extension.html
 http://symfony.com/doc/2.3/quick_tour/the_architecture.html#understanding-the-directory-structure
 * Request handling  
 http://symfony.com/doc/2.3/book/http_fundamentals.html#the-journey-from-the-request-to-the-response
+Exception handling
+Event dispatcher and kernel events
+Official best practices
+Release management
+Backward compatibility promise
+Deprecations best practices
 
 ---
 
@@ -73,13 +93,13 @@ http://symfony.com/doc/2.3/book/installation.html
 https://knpuniversity.com/screencast/composer
 * Development best practices
 http://symfony.com/doc/2.3/best_practices/index.html
-
 * Override the framework  
 http://symfony.com/doc/2.3/cookbook/bundles/override.html
+*Semantic versioning
 
 ---
 
-#### **The Bundles**
+#### **Bundles**
 * Naming conventions  
 http://symfony.com/doc/2.3/cookbook/bundles/best_practices.html#bundle-name
 * Code organization  
@@ -90,7 +110,11 @@ http://symfony.com/doc/2.3/cookbook/controller/index.html
 http://symfony.com/doc/2.3/book/controller.html
 * The views  
 http://symfony.com/doc/2.3/quick_tour/the_view.html
-* The resources  
+* The resources
+* Overriding default error pages
+* Bundle inheritance
+* Event dispatcher and kernel events
+* Semantic configuration and compiler passes
 
 ---
 
@@ -118,7 +142,8 @@ http://symfony.com/doc/2.3/book/controller.html#forwarding-to-another-controller
 * Generate 404 pages  
 http://symfony.com/doc/2.3/book/controller.html#managing-errors-and-404-pages
 http://symfony.com/doc/2.3/cookbook/controller/error_pages.html#customizing-the-404-page-and-other-error-pages
-
+* File upload
+* Built-in internal controllers
 ---
 
 #### **The Routing**
@@ -134,6 +159,12 @@ http://symfony.com/doc/2.3/book/routing.html#generating-urls-with-query-strings
 * Trigger redirections  
 http://symfony.com/doc/master/cmf/components/routing/dynamic.html#redirections
 http://symfony.com/doc/2.3/cookbook/routing/redirect_in_config.html
+* Special internal routing attributes
+* Domain name matching
+* Conditional request matching
+* HTTP methods matching
+* User's locale guessing
+* Router debugging
 
 ---
 
@@ -161,6 +192,9 @@ http://symfony.com/doc/2.3/book/templating.html#linking-to-pages
 http://symfony.com/doc/2.3/book/templating.html#embedding-controllers
 * Translations  
 http://symfony.com/doc/2.3/book/translation.html#translations-in-templates
+* String interpolation
+* Assets management
+* Debugging variables
 
 ---
 
@@ -176,6 +210,12 @@ http://symfony.com/doc/2.3/book/forms.html#built-in-field-types
 http://symfony.com/doc/2.3/book/forms.html#rendering-a-form-in-a-template
 * Forms security (CSRF)  
 http://symfony.com/doc/2.3/book/forms.html#csrf-protection
+* Forms theming
+* Handling file upload
+* Built-in form types
+* Data transformers
+* Form events
+* Form type extensions
 
 ---
 
@@ -187,6 +227,9 @@ http://symfony.com/doc/2.3/book/validation.html#constraints
 * Validation scopes  
 * Validation groups  
 http://symfony.com/doc/2.3/book/validation.html#validation-groups
+* Group sequence
+* Custom callback validators
+* Violations builder
 
 ---
 
@@ -205,6 +248,9 @@ http://symfony.com/doc/2.3/book/service_container.html#tags
 http://symfony.com/doc/2.3/reference/dic_tags.html
 * Semantic configuration  
 http://symfony.com/doc/2.3/cookbook/bundles/extension.html
+* Factories
+* Compiler passes
+* Services autowiring
 
 ---
 
@@ -232,6 +278,8 @@ http://symfony.com/doc/2.3/book/security.html#roles
 * Access Control Rules  
 http://symfony.com/doc/2.3/book/security.html#access-control-in-templates
 http://symfony.com/doc/2.3/book/security.html#access-control-in-controllers
+* Guard authenticators
+* Voters and voting strategies
 
 ---
 
@@ -259,7 +307,10 @@ http://symfony.com/doc/2.3/cookbook/console/console_command.html
 * Options and arguments  
 http://symfony.com/doc/2.3/components/console/introduction.html#using-command-options  
 http://symfony.com/doc/2.3/components/console/introduction.html#using-command-arguments
-* Read the entry and write the output  
+* Input and Output objects
+* Built-in helpers
+* Console events
+* Verbosity levels
 
 ---
 
@@ -279,8 +330,10 @@ http://symfony.com/doc/2.3/cookbook/testing/profiling.html
 http://symfony.com/doc/2.3/book/testing.html#accessing-internal-objects
 http://symfony.com/doc/2.3/book/testing.html#accessing-the-container
 * Configure the client  
-* Introspect the request and response  
-http://symfony.com/doc/2.3/book/testing.html#accessing-internal-objects
+* Request and response objects introspection  
+http://symfony.com/doc/3.0/book/testing.html#accessing-internal-objects
+* PHPUnit bridge
+* Handling legacy deprecated code
 
 ---
 
@@ -289,6 +342,11 @@ http://symfony.com/doc/2.3/book/testing.html#accessing-internal-objects
 http://symfony.com/doc/2.3/cookbook/controller/error_pages.html
 * Debug the code  
 http://symfony.com/doc/2.3/cookbook/debugging.html
+* Deployment best practices
+* Process
+* Data collectors
+* Web Profiler and Web Debug Toolbar
+* Internationalization and localization
 
 ### **Resources**
 ---
