@@ -73,11 +73,19 @@ http://symfony.com/doc/3.0/quick_tour/the_architecture.html#understanding-the-di
 * Request handling  
 http://symfony.com/doc/3.0/book/http_fundamentals.html#the-journey-from-the-request-to-the-response
 * Exception handling
+http://symfony.com/doc/3.0/controller/error_pages.html
 * Event dispatcher and kernel events
+http://symfony.com/doc/3.0/components/event_dispatcher.html
+http://symfony.com/doc/3.0/reference/events.html#kernel-events
 * Official best practices
+http://symfony.com/doc/3.0/best_practices/index.html
 * Release management
+http://symfony.com/doc/3.0/contributing/community/releases.html
 * Backward compatibility promise
+http://symfony.com/doc/3.0/contributing/community/releases.html#backwards-compatibility
 * Deprecations best practices
+http://symfony.com/doc/3.0/contributing/community/releases.html#deprecations
+http://symfony.com/doc/3.0/contributing/code/conventions.html#contributing-code-conventions-deprecations
 
 ---
 
@@ -113,9 +121,13 @@ http://symfony.com/doc/3.0/book/controller.html
 http://symfony.com/doc/3.0/quick_tour/the_view.html
 * The resources
 * Overriding default error pages
+* http://symfony.com/doc/3.0/controller/error_pages.html
 * Bundle inheritance
+* http://symfony.com/doc/3.0/bundles/inheritance.html
+* http://symfony.com/doc/3.0/bundles/override.html
 * Event dispatcher and kernel events
 * Semantic configuration and compiler passes
+http://symfony.com/doc/3.0/service_container/compiler_passes.html
 
 ---
 
@@ -144,6 +156,7 @@ http://symfony.com/doc/3.0/book/controller.html#forwarding-to-another-controller
 http://symfony.com/doc/3.0/book/controller.html#managing-errors-and-404-pages
 http://symfony.com/doc/3.0/cookbook/controller/error_pages.html#customizing-the-404-page-and-other-error-pages
 * File upload
+http://symfony.com/doc/3.0/controller/upload_file.html
 * Built-in internal controllers
 ---
 
@@ -162,10 +175,15 @@ http://symfony.com/doc/master/cmf/components/routing/dynamic.html#redirections
 http://symfony.com/doc/3.0/cookbook/routing/redirect_in_config.html
 * Special internal routing attributes
 * Domain name matching
+http://symfony.com/doc/3.0/routing/hostname_pattern.html
 * Conditional request matching
+http://symfony.com/doc/3.0/routing/conditions.html
 * HTTP methods matching
+http://symfony.com/doc/3.0/routing/requirements.html#adding-http-method-requirements
 * User's locale guessing
+http://symfony.com/doc/3.0/translation/locale.html
 * Router debugging
+http://symfony.com/doc/3.0/routing/debug.html
 
 ---
 
@@ -194,8 +212,11 @@ http://symfony.com/doc/3.0/book/templating.html#embedding-controllers
 * Translations  
 http://symfony.com/doc/3.0/book/translation.html#translations-in-templates
 * String interpolation
+http://twig.sensiolabs.org/doc/templates.html#string-interpolation
 * Assets management
 * Debugging variables
+http://symfony.com/doc/3.0/templating/debug.html
+http://twig.sensiolabs.org/doc/functions/dump.html
 
 ---
 
@@ -212,6 +233,7 @@ http://symfony.com/doc/3.0/book/forms.html#rendering-a-form-in-a-template
 * Forms security (CSRF)  
 http://symfony.com/doc/3.0/book/forms.html#csrf-protection
 * Forms theming
+http://symfony.com/doc/3.0/form/form_themes.html
 * Handling file upload
 * Built-in form types
 * Data transformers
