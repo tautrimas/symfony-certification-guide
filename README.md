@@ -190,7 +190,7 @@ http://symfony.com/doc/3.0/routing/debug.html
 #### **Templating with Twig**
 * Auto escape  
 http://twig.sensiolabs.org/doc/tags/autoescape.html
-http://symfony.com/doc/3.0/book/templating.html#output-escaping-in-twig
+http://symfony.com/doc/3.0/book/templating.html#output-escaping
 * Template inheritance  
 http://twig.sensiolabs.org/doc/tags/extends.html
 http://twig.sensiolabs.org/doc/templates.html#template-inheritance
