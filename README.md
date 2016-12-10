@@ -356,6 +356,7 @@ http://symfony.com/doc/3.0/book/testing.html#accessing-the-container
 * Request and response objects introspection  
 http://symfony.com/doc/3.0/book/testing.html#accessing-internal-objects
 * PHPUnit bridge
+http://symfony.com/doc/3.0/components/phpunit_bridge.html
 * Handling legacy deprecated code
 
 ---
